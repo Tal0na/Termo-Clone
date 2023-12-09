@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: rgb(253, 59, 0);
+}
+
+#game {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+#feedback {
+  font-size: 18px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+#colorGrids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.colorGrid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.letterSquare {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(30, 30, 30);
+}
+
+.correctLetter {
+  color: rgb(219, 255, 57);
+}
+
+.correctPosition {
+  background-color: rgb(0, 133, 0);
+}
